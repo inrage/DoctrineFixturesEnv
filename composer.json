@@ -1,0 +1,23 @@
+{
+    "name": "inrage/doctrine-fixtures-env",
+    "description": "Loads Doctrine Data Fixtures by environment (prod, dev, test, ...)",
+    "keywords": [ "fixtures", "doctrine", "symfony" ],
+    "type": "library",
+    "require": {
+        "doctrine/doctrine-fixtures-bundle": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pascal GAULT",
+            "email": "pascal@inrage.fr",
+            "homepage": "http://www.inrage.fr"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "inrage\\DataFixturesEnv\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
