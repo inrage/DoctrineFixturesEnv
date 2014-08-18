@@ -85,3 +85,10 @@ class LoadDevUsersData extends AbstractDataFixture
 
 ```
 
+Console
+-------
+
+```bash
+app/console doctrine:fixtures:load --env=prod
+app/console doctrine:fixtures:load --env=dev
+```
